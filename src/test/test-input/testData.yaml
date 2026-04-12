@@ -1,0 +1,29 @@
+- From: GBP
+  To: INR
+  Amount: 100
+  TestData: 12000
+  Tolerance(%): 1
+
+- From: INR
+  To: GBP
+  Amount: 10000
+  TestData: 95
+  Tolerance(%): 1
+
+- From: USD
+  To: GBP
+  Amount: 1000
+  TestData: 850
+  Tolerance(%): 1
+
+- From: USD
+  To: EUR
+  Amount: 100
+  TestData: 110
+  Tolerance(%): 1
+
+- From: USD
+  To: JPY
+  Amount: 100
+  TestData: 20000
+  Tolerance(%): 1

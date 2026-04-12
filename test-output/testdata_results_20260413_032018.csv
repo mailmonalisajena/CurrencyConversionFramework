@@ -1,0 +1,4 @@
+"fromCurrency","toCurrency","amount","expectedValue","tolerance","actualValue","upperLimit","lowerLimit","status"
+"GBP","INR","100","12500","2","12526.77","12777.305400000001","12276.2346","PASS"
+"USD","EUR","50","43","","42.81","43.2381","42.3819","PASS"
+"USD","JPY","200","31840","0","31916.0","31916.0","31916.0","FAIL"

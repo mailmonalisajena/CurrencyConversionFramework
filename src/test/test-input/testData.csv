@@ -1,0 +1,4 @@
+From,To,Amount,TestData,Tollerance(%)
+GBP,INR,100,12500,2
+USD,EUR,50,43,
+USD,JPY,200,31840,0

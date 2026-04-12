@@ -1,0 +1,8 @@
+{
+  "browser": "chromium",
+  "headless": true,
+  "baseUrl": "https://www.xe.com/",
+  "testDataPath": "src/test/test-input/testdata.csv",
+  "timeout": 30000,
+  "defaultTolerance": 1
+}
