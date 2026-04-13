@@ -48,6 +48,9 @@ public class TestExecutor {
         System.out.println("Execution completed successfully.");
     }
 
+    /**
+     * Validates the currency page and get the actual exchange value.
+     */
     private void execute(Publicdata data) {
 
         double actualValue=0;

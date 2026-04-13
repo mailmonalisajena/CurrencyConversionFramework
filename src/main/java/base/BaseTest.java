@@ -24,12 +24,6 @@ public class BaseTest {
                 );
                 break;
 
-            case "webkit":
-                browser = playwright.webkit().launch(
-                        new BrowserType.LaunchOptions().setHeadless(config.headless)
-                );
-                break;
-
             default:
                 browser = playwright.chromium().launch(
                         new BrowserType.LaunchOptions().setHeadless(config.headless)
@@ -47,9 +41,7 @@ public class BaseTest {
     }
 
     public void tearDown() {
-        //browser.close();
         playwright.close();
         System.exit(0);
-        System.out.println("Browser closed");
     }
 }

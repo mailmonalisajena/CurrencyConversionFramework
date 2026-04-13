@@ -16,10 +16,6 @@ public class CsvResultWriter {
             DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
     private static final DateTimeFormatter TIMESTAMP_FORMATTER =
             DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-//    private static final DateTimeFormatter FORMATTER =
-//            DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
-//    private static final DateTimeFormatter TIMESTAMP_FORMATTER =
-//            DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
     /**
      * Creates a new CSV file with execution results.

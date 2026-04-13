@@ -65,6 +65,9 @@ public class CurrencyPage {
 
     }
 
+    /**
+     * Validates the Currency is in proper format.
+     */
     public static void currencyCheck(String currency) {
         try {
             Currency.getInstance(currency);

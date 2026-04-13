@@ -3,7 +3,6 @@ package tests;
 import utils.CsvReader;
 import utils.Publicdata;
 import base.BaseTest;
-import pages.CurrencyPage;
 import utils.ConfigReader;
 
 import java.util.List;
@@ -24,12 +23,10 @@ public class CurrencyTest extends BaseTest {
             );
         }
 
-        CurrencyTest test = new CurrencyTest();
-        //test.setUp();
-
         TestExecutor executor = new TestExecutor(dataList, filePath);
         executor.run();
 
+        CurrencyTest test = new CurrencyTest();
         test.tearDown();
 
         System.out.println("Framework execution completed.");

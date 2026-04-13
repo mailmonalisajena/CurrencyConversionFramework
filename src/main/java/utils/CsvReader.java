@@ -36,8 +36,6 @@ public class CsvReader {
 
                 } catch (IllegalArgumentException e) {
                     System.err.println("Skipping row " + rowNumber + ": " + e.getMessage());
-                    // If you have a logger:
-                    //LoggerUtil.error("Skipping row " + rowNumber + ": " + e.getMessage());
                 }
             }
 

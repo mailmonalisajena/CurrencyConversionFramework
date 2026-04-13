@@ -5,7 +5,9 @@ import utils.Publicdata;
 
 public class ToleranceService {
 
-
+    /**
+     * Validates the currency tolerance value.
+     */
     public static Publicdata validate(Publicdata data) {
         var config = ConfigReader.get();
         double defaultToleranceValue;
